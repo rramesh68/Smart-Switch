@@ -7,7 +7,7 @@
 // @@@@@@@@@@@@@@@ You only need to modify wi-fi and domain info @@@@@@@@@@@@@@@@@@@@
 const char* ssid     = "PARAMS"; //enter your ssid/ wi-fi(case sensitive) router name - 2.4 Ghz only
 const char* password = "1818crson";     // enter ssid password (case sensitive)
-char host[] = "smartparams.herokuapp.com/"; //- better your Heroku domain name like  "smart-switch.herokuapp.com" 
+char host[] = "smartparams.herokuapp.com"; //- better your Heroku domain name like  "smartparams.herokuapp.com" 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 #define dht_dpin 0  //14
 const int relayPin = 2; //16
